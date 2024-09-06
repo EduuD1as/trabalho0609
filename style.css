@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+  background-color: rgb(207, 218, 227);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background-image: url(./assets/headerBackground.png);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+@font-face {
+  font-family: High Speed;
+  src: url(./assets/High\ Speed.ttf);
+}
+
+#tituloHeader {
+  display: flex;
+  color: white;
+  font-size: 42px;
+  font-family: "High Speed";
+}
+
+main {
+  margin: 16px;
+  font-family: 'Purista';
+}
+
+p {
+  margin-left: 20px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+img {
+  margin: 0 0 0 20px;
+}
+
+@font-face {
+  font-family: Purista;
+  src: url(./assets/Purista.ttf);
+}
+
+#maps {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+}
+
+#maps p {
+  color: rgb(50, 50, 50);
+}
+
+#top10hltv p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+#top10hltv img {
+  border-radius: 16px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.7);
+}
+
+#curiosities h1 {
+  margin: 10px;
+}
+
+#curiosities p {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+  margin: 0 0 20px 20px;
+}
+
+#curiosities h2 {
+  margin: 20px 0 0 20px;
+  margin-bottom: 0;
+}
+
+#curiosities img {
+  border-radius: 16px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.7);
+
+}
+
+#funcoesTable h1 {
+  margin: 10px;
+}
+
+table {
+  margin: 20px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 48px;
+}
+
+footer img {
+  width: 16px;
+  height: 18px;
+}
