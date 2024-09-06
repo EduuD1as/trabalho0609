@@ -109,3 +109,26 @@ footer img {
   width: 16px;
   height: 18px;
 }
+
+th,
+td {
+  border: 1px solid rgb(131, 62, 62);
+  padding: 8px 10px;
+}
+
+th[scope='col'] {
+  background-color: #505050;
+  color: #fff;
+}
+
+td {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
